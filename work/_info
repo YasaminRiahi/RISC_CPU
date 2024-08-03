@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/modeltech64_2020.4/examples
 vAdd
-Z0 !s110 1722694758
+Z0 !s110 1722698077
 !i10b 1
 !s100 IHcAD3>Ff^B`oQ<<mXQO`0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,14 +19,14 @@ Z2 dD:/RISC_CPU
 Z3 w1722693391
 Z4 8D:/RISC_CPU/ADD.v
 Z5 FD:/RISC_CPU/ADD.v
-!i122 1
+!i122 8
 Z6 L0 1 7
 Z7 VDg1SIo80bB@j0V0VzS_@n1
 Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1722694758.000000
+Z9 !s108 1722698077.000000
 Z10 !s107 D:/RISC_CPU/ADD.v|
 Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/ADD.v|
 !i113 0
@@ -43,7 +43,7 @@ R2
 R3
 R4
 R5
-!i122 1
+!i122 8
 Z14 L0 10 16
 R7
 R8
@@ -67,7 +67,7 @@ R2
 Z15 w1722694485
 Z16 8D:/RISC_CPU/ASHL.v
 Z17 FD:/RISC_CPU/ASHL.v
-!i122 2
+!i122 9
 R6
 R7
 R8
@@ -75,8 +75,8 @@ r1
 !s85 0
 31
 R9
-!s107 D:/RISC_CPU/ASHL.v|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/ASHL.v|
+Z18 !s107 D:/RISC_CPU/ASHL.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/ASHL.v|
 !i113 0
 R12
 R13
@@ -91,7 +91,7 @@ R2
 R15
 R16
 R17
-!i122 2
+!i122 9
 R14
 R7
 R8
@@ -99,9 +99,201 @@ r1
 !s85 0
 31
 R9
-Z19 !s107 D:/RISC_CPU/ASHL.v|
 R18
+R19
 !i113 0
 R12
 R13
 n@ashl@t@b
+vDivisionBy2
+R0
+!i10b 1
+!s100 PkF3Mk9H[dP[HQNM38`A[0
+R1
+I^oDGI246LNim7BG@4hnF`0
+R2
+Z20 w1722695280
+Z21 8D:/RISC_CPU/DIVby2.v
+Z22 FD:/RISC_CPU/DIVby2.v
+!i122 11
+L0 1 8
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z23 !s107 D:/RISC_CPU/DIVby2.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/DIVby2.v|
+!i113 0
+R12
+R13
+n@division@by2
+vDivisionBy2TB
+R0
+!i10b 1
+!s100 Kc_Pk1Ah?hoW735mjg1H72
+R1
+I@ELSPgZV;NI4FMd:N3i1o2
+R2
+R20
+R21
+R22
+!i122 11
+L0 11 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R23
+R24
+!i113 0
+R12
+R13
+n@division@by2@t@b
+vLoad
+R0
+!i10b 1
+!s100 ?`3@9BNn<46[aY;9KHB9T0
+R1
+I@R1lk`@6c]o`m9ddg`KLk1
+R2
+Z25 w1722696969
+Z26 8D:\RISC_CPU\LOAD.v
+Z27 FD:\RISC_CPU\LOAD.v
+!i122 12
+Z28 L0 1 6
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z29 !s107 D:\RISC_CPU\LOAD.v|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\RISC_CPU\LOAD.v|
+!i113 0
+R12
+R13
+n@load
+vLoadTB
+R0
+!i10b 1
+!s100 9T3GQ16In5]b21g]zh1m91
+R1
+IAR^?gFcH:jS4`1@>bJgVd1
+R2
+R25
+R26
+R27
+!i122 12
+Z31 L0 9 15
+R7
+R8
+r1
+!s85 0
+31
+R9
+R29
+R30
+!i113 0
+R12
+R13
+n@load@t@b
+vStore
+R0
+!i10b 1
+!s100 Ui<P4OZ?cT]=3WZ1;a_L]2
+R1
+I_I^hB2VLg]d0J>[7:4Nhk3
+R2
+Z32 w1722698032
+Z33 8D:/RISC_CPU/STORE.v
+Z34 FD:/RISC_CPU/STORE.v
+!i122 13
+R28
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/RISC_CPU/STORE.v|
+Z35 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/STORE.v|
+!i113 0
+R12
+R13
+n@store
+vStoreTB
+R0
+!i10b 1
+!s100 zfGe`4VGImbH4<bdNa7cZ3
+R1
+IB06:IEP<E[ndaga3BNQVa1
+R2
+R32
+R33
+R34
+!i122 13
+R31
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z36 !s107 D:/RISC_CPU/STORE.v|
+R35
+!i113 0
+R12
+R13
+n@store@t@b
+vXnor
+R0
+!i10b 1
+!s100 ^CASB]fS<_5KnYaDfD]LG3
+R1
+I:1B31MB>;:;C6oO[`HRe]1
+R2
+Z37 w1722694859
+Z38 8D:/RISC_CPU/XNOR.v
+Z39 FD:/RISC_CPU/XNOR.v
+!i122 10
+R28
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z40 !s107 D:/RISC_CPU/XNOR.v|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/XNOR.v|
+!i113 0
+R12
+R13
+n@xnor
+vXnorTB
+R0
+!i10b 1
+!s100 <9>Y49fbZ3;GWczY]UaB[3
+R1
+IV<Ddokg9QVFPEn5IPMTOW1
+R2
+R37
+R38
+R39
+!i122 10
+R31
+R7
+R8
+r1
+!s85 0
+31
+R9
+R40
+R41
+!i113 0
+R12
+R13
+n@xnor@t@b
