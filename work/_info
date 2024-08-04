@@ -10,15 +10,14 @@ z2
 cModel Technology
 Z0 dC:/modeltech64_2020.4/examples
 T_opt
-!s110 1722716183
-VlEWmjz<N<4dAlW4TE<QIJ3
-04 7 4 work StoreTB fast 0
-=1-50ebf6d08ed0-66ae9017-282-1ca8
+!s110 1722759478
+Vii6nQG=Ue^M^dl7IEnS<S3
+04 9 4 work Reg4BitTB fast 0
+=1-50ebf6d08ed0-66af3936-2be-3614
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
-R0
 T_opt1
 !s110 1722716638
 VQ8;DinE>4CTF^1?RQH0aa2
@@ -38,8 +37,9 @@ R1
 R2
 n@_opt2
 R3
+R0
 vAdd
-Z4 !s110 1722757060
+Z4 !s110 1722759441
 !i10b 1
 !s100 IHcAD3>Ff^B`oQ<<mXQO`0
 Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -48,14 +48,14 @@ Z6 dD:/RISC_CPU
 Z7 w1722693391
 Z8 8D:/RISC_CPU/ADD.v
 Z9 FD:/RISC_CPU/ADD.v
-!i122 65
+!i122 73
 Z10 L0 1 7
 Z11 VDg1SIo80bB@j0V0VzS_@n1
 Z12 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z13 !s108 1722757060.000000
+Z13 !s108 1722759441.000000
 Z14 !s107 D:/RISC_CPU/ADD.v|
 Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/ADD.v|
 !i113 0
@@ -72,7 +72,7 @@ R6
 R7
 R8
 R9
-!i122 65
+!i122 73
 Z17 L0 10 16
 R11
 R12
@@ -87,7 +87,7 @@ R16
 R2
 n@add@t@b
 vALU
-Z18 !s110 1722757061
+Z18 !s110 1722759442
 !i10b 1
 !s100 GaU>BT6[blFilLN9_:?P43
 R5
@@ -96,14 +96,14 @@ R6
 Z19 w1722757022
 Z20 8D:/RISC_CPU/ALU.v
 Z21 FD:/RISC_CPU/ALU.v
-!i122 72
+!i122 80
 L0 1 31
 R11
 R12
 r1
 !s85 0
 31
-Z22 !s108 1722757061.000000
+Z22 !s108 1722759442.000000
 Z23 !s107 D:/RISC_CPU/ALU.v|
 Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/ALU.v|
 !i113 0
@@ -120,7 +120,7 @@ R6
 R19
 R20
 R21
-!i122 72
+!i122 80
 L0 33 37
 R11
 R12
@@ -144,7 +144,7 @@ R6
 Z25 w1722711765
 Z26 8D:/RISC_CPU/ASHL.v
 Z27 FD:/RISC_CPU/ASHL.v
-!i122 66
+!i122 74
 R10
 R11
 R12
@@ -168,7 +168,7 @@ R6
 R25
 R26
 R27
-!i122 66
+!i122 74
 R17
 R11
 R12
@@ -192,7 +192,7 @@ R6
 Z30 w1722716426
 Z31 8D:/RISC_CPU/2sCOMPLEMENT.v
 Z32 FD:/RISC_CPU/2sCOMPLEMENT.v
-!i122 71
+!i122 79
 Z33 L0 1 6
 R11
 R12
@@ -216,7 +216,7 @@ R6
 R30
 R31
 R32
-!i122 71
+!i122 79
 Z36 L0 9 15
 R11
 R12
@@ -240,7 +240,7 @@ R6
 Z37 w1722715432
 Z38 8D:/RISC_CPU/DIVby2.v
 Z39 FD:/RISC_CPU/DIVby2.v
-!i122 68
+!i122 76
 L0 1 8
 R11
 R12
@@ -264,7 +264,7 @@ R6
 R37
 R38
 R39
-!i122 68
+!i122 76
 L0 11 17
 R11
 R12
@@ -288,7 +288,7 @@ R6
 Z42 w1722716076
 Z43 8D:/RISC_CPU/LOAD.v
 Z44 FD:/RISC_CPU/LOAD.v
-!i122 69
+!i122 77
 R33
 R11
 R12
@@ -312,7 +312,7 @@ R6
 R42
 R43
 R44
-!i122 69
+!i122 77
 R36
 R11
 R12
@@ -326,42 +326,42 @@ R46
 R16
 R2
 n@load@t@b
-vStore
+vReg4Bit
 R18
 !i10b 1
-!s100 Ui<P4OZ?cT]=3WZ1;a_L]2
+!s100 X=dmz<3]ej:6@_S7PTY9z2
 R5
-I_I^hB2VLg]d0J>[7:4Nhk3
+I^9X=:5YBnPOBYTYm=8MD70
 R6
-Z47 w1722716159
-Z48 8D:/RISC_CPU/STORE.v
-Z49 FD:/RISC_CPU/STORE.v
-!i122 70
-R33
+Z47 w1722759419
+Z48 8D:/RISC_CPU/Reg4Bit.v
+Z49 FD:/RISC_CPU/Reg4Bit.v
+!i122 81
+L0 1 13
 R11
 R12
 r1
 !s85 0
 31
 R22
-Z50 !s107 D:/RISC_CPU/STORE.v|
-Z51 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/STORE.v|
+Z50 !s107 D:/RISC_CPU/Reg4Bit.v|
+Z51 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/Reg4Bit.v|
 !i113 0
 R16
 R2
-n@store
-vStoreTB
+n@reg4@bit
+vReg4BitTB
 R18
 !i10b 1
-!s100 zfGe`4VGImbH4<bdNa7cZ3
+!s100 g<`C;kOcV;0OHe9WXZUDM2
 R5
-IB06:IEP<E[ndaga3BNQVa1
+I1_[SV<Ra[nnnKQ^]@L<^d2
 R6
 R47
 R48
 R49
-!i122 70
-R36
+!i122 81
+L0 15 27
 R11
 R12
 r1
@@ -373,6 +373,54 @@ R51
 !i113 0
 R16
 R2
+n@reg4@bit@t@b
+vStore
+R18
+!i10b 1
+!s100 Ui<P4OZ?cT]=3WZ1;a_L]2
+R5
+I_I^hB2VLg]d0J>[7:4Nhk3
+R6
+Z52 w1722716159
+Z53 8D:/RISC_CPU/STORE.v
+Z54 FD:/RISC_CPU/STORE.v
+!i122 78
+R33
+R11
+R12
+r1
+!s85 0
+31
+R22
+Z55 !s107 D:/RISC_CPU/STORE.v|
+Z56 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/STORE.v|
+!i113 0
+R16
+R2
+n@store
+vStoreTB
+R18
+!i10b 1
+!s100 zfGe`4VGImbH4<bdNa7cZ3
+R5
+IB06:IEP<E[ndaga3BNQVa1
+R6
+R52
+R53
+R54
+!i122 78
+R36
+R11
+R12
+r1
+!s85 0
+31
+R22
+R55
+R56
+!i113 0
+R16
+R2
 n@store@t@b
 vXnor
 R4
@@ -381,10 +429,10 @@ R4
 R5
 I:1B31MB>;:;C6oO[`HRe]1
 R6
-Z52 w1722712084
-Z53 8D:/RISC_CPU/XNOR.v
-Z54 FD:/RISC_CPU/XNOR.v
-!i122 67
+Z57 w1722712084
+Z58 8D:/RISC_CPU/XNOR.v
+Z59 FD:/RISC_CPU/XNOR.v
+!i122 75
 R33
 R11
 R12
@@ -392,8 +440,8 @@ r1
 !s85 0
 31
 R13
-Z55 !s107 D:/RISC_CPU/XNOR.v|
-Z56 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/XNOR.v|
+Z60 !s107 D:/RISC_CPU/XNOR.v|
+Z61 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/XNOR.v|
 !i113 0
 R16
 R2
@@ -405,10 +453,10 @@ R4
 R5
 IV<Ddokg9QVFPEn5IPMTOW1
 R6
-R52
-R53
-R54
-!i122 67
+R57
+R58
+R59
+!i122 75
 R36
 R11
 R12
@@ -416,8 +464,8 @@ r1
 !s85 0
 31
 R13
-R55
-R56
+R60
+R61
 !i113 0
 R16
 R2
