@@ -18,16 +18,16 @@ Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
+R0
 T_opt1
-!s110 1722775714
-Vi?S8T5fe=h9Uo4]DXF:8Q2
-04 7 4 work TestAdd fast 0
-=1-50ebf6d08ed0-66af78a1-3c7-1270
+!s110 1722778061
+V;L:ii]509W]ZD_A1K2PKX2
+04 15 4 work TestDivisionBy2 fast 0
+=1-50ebf6d08ed0-66af81cc-3a2-1ac8
 R1
 R2
 n@_opt1
 R3
-R0
 T_opt2
 !s110 1722776674
 V3iEV@EW_O0gWE8TTEK2G71
@@ -782,6 +782,30 @@ r1
 R16
 R2
 n@test@ashl
+vTestDivisionBy2
+!s110 1722778036
+!i10b 1
+!s100 79>UcG9905OUA05k@3`C60
+R5
+I>o_ZdM^J1<e40Nd4XOU^^2
+R6
+w1722777988
+8D:/RISC_CPU/TestDIVby2.v
+FD:/RISC_CPU/TestDIVby2.v
+!i122 186
+L0 1 49
+R11
+R12
+r1
+!s85 0
+31
+!s108 1722778036.000000
+!s107 D:/RISC_CPU/TestDIVby2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/TestDIVby2.v|
+!i113 0
+R16
+R2
+n@test@division@by2
 vTestXNOR
 !s110 1722777453
 !i10b 1
