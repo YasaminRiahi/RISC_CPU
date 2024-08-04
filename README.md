@@ -1,6 +1,6 @@
 # RISC CPU
-[Documentation](https://docs.google.com/document/d/1vbQ0ldmbKiitK27L64wubZu0qL2AMR0tT6e2UPM1T8Y/edit)
+[Documentation](https://drive.google.com/file/d/1ARMjK32caQ1m9odgopl0qcczQdUZ3QT1/view?usp=drive_link)
 #
-[Report](https://docs.google.com/document/d/1vogQV7leVtOHQ4pv8SovJkZUtMNuTFWy76DSTuTKpBs/edit)
+[Report](https://drive.google.com/file/d/1GIFR473kixAKUDV6Z1c6Xqw-bag6Kg4W/view?usp=sharing)
 #
 students : [YasaminRiahi](https://github.com/YasaminRiahi) , [KimiaSadeghi](https://github.com/Kimiass)
