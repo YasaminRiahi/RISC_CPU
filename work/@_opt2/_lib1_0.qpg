@@ -10,30 +10,30 @@ z2
 cModel Technology
 Z0 dC:/modeltech64_2020.4/examples
 T_opt
-!s110 1722771438
-VI0Vi][5@P`[QIAcDE^h?<0
-04 12 4 work Decoder3_8TB fast 0
-=1-50ebf6d08ed0-66af67ee-255-4b4c
+!s110 1722777480
+V]QE6Y?z>i>G6EFR`Wc_@>3
+04 8 4 work TestXNOR fast 0
+=1-50ebf6d08ed0-66af7f88-20f-5900
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1722775714
-Vi?S8T5fe=h9Uo4]DXF:8Q2
-04 7 4 work TestAdd fast 0
-=1-50ebf6d08ed0-66af78a1-3c7-1270
+!s110 1722778061
+V;L:ii]509W]ZD_A1K2PKX2
+04 15 4 work TestDivisionBy2 fast 0
+=1-50ebf6d08ed0-66af81cc-3a2-1ac8
 R1
 R2
 n@_opt1
 R3
 R0
 T_opt2
-!s110 1722776674
-V3iEV@EW_O0gWE8TTEK2G71
-04 8 4 work TestAshl fast 0
-=1-50ebf6d08ed0-66af7c62-1d6-542c
+!s110 1722778444
+V_7@8iHJZF[RMU1l0kMkd?3
+04 15 4 work TestComplement2 fast 0
+=1-50ebf6d08ed0-66af834c-a5-58fc
 R1
 R2
 n@_opt2
@@ -738,5 +738,4 @@ vTestAdd
 R42
 !i10b 1
 !s100 ^3aCPA[^KCY[SdhZn96261
-R5
-I1Zobb00d
+R

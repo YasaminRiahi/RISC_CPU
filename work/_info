@@ -28,16 +28,16 @@ R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1722776674
-V3iEV@EW_O0gWE8TTEK2G71
-04 8 4 work TestAshl fast 0
-=1-50ebf6d08ed0-66af7c62-1d6-542c
+!s110 1722778444
+V_7@8iHJZF[RMU1l0kMkd?3
+04 15 4 work TestComplement2 fast 0
+=1-50ebf6d08ed0-66af834c-a5-58fc
 R1
 R2
 n@_opt2
 R3
-R0
 vAdd
 Z4 !s110 1722775698
 !i10b 1
@@ -769,7 +769,7 @@ w1722776638
 8D:/RISC_CPU/TestASHL.v
 FD:/RISC_CPU/TestASHL.v
 !i122 184
-L0 1 51
+Z91 L0 1 51
 R11
 R12
 r1
@@ -782,6 +782,30 @@ r1
 R16
 R2
 n@test@ashl
+vTestComplement2
+!s110 1722778427
+!i10b 1
+!s100 z:dHg;hlG1G1Dj[lLZ=<]2
+R5
+ILQ3RY0M0dCAbQoa;l^am]3
+R6
+w1722778382
+8D:/RISC_CPU/TestCOMPLEMENT2.v
+FD:/RISC_CPU/TestCOMPLEMENT2.v
+!i122 187
+R91
+R11
+R12
+r1
+!s85 0
+31
+!s108 1722778427.000000
+!s107 D:/RISC_CPU/TestCOMPLEMENT2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/TestCOMPLEMENT2.v|
+!i113 0
+R16
+R2
+n@test@complement2
 vTestDivisionBy2
 !s110 1722778036
 !i10b 1
@@ -837,9 +861,9 @@ R4
 R5
 I:1B31MB>;:;C6oO[`HRe]1
 R6
-Z91 w1722712084
-Z92 8D:/RISC_CPU/XNOR.v
-Z93 FD:/RISC_CPU/XNOR.v
+Z92 w1722712084
+Z93 8D:/RISC_CPU/XNOR.v
+Z94 FD:/RISC_CPU/XNOR.v
 !i122 169
 R38
 R11
@@ -848,8 +872,8 @@ r1
 !s85 0
 31
 R13
-Z94 !s107 D:/RISC_CPU/XNOR.v|
-Z95 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/XNOR.v|
+Z95 !s107 D:/RISC_CPU/XNOR.v|
+Z96 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/XNOR.v|
 !i113 0
 R16
 R2
@@ -861,9 +885,9 @@ R4
 R5
 IV<Ddokg9QVFPEn5IPMTOW1
 R6
-R91
 R92
 R93
+R94
 !i122 169
 R41
 R11
@@ -872,8 +896,8 @@ r1
 !s85 0
 31
 R13
-R94
 R95
+R96
 !i113 0
 R16
 R2
