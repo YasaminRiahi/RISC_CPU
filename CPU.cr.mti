@@ -1,0 +1,57 @@
+D:/RISC_CPU/ASHL.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/ASHL.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Ashl
+-- Compiling module AshlTB
+
+Top level modules:
+	AshlTB
+
+} {} {}} D:/RISC_CPU/DIVby2.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/DIVby2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DivisionBy2
+-- Compiling module DivisionBy2TB
+
+Top level modules:
+	DivisionBy2TB
+
+} {} {}} D:/RISC_CPU/LOAD.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/LOAD.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Load
+-- Compiling module LoadTB
+
+Top level modules:
+	LoadTB
+
+} {} {}} D:/RISC_CPU/ADD.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/ADD.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Add
+-- Compiling module AddTB
+
+Top level modules:
+	AddTB
+
+} {} {}} D:/RISC_CPU/STORE.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/STORE.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Store
+-- Compiling module StoreTB
+
+Top level modules:
+	StoreTB
+
+} {} {}} D:/RISC_CPU/2sCOMPLEMENT.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/2sCOMPLEMENT.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Complement2
+-- Compiling module Complement2TB
+
+Top level modules:
+	Complement2TB
+
+} {} {}} D:/RISC_CPU/XNOR.v {1 {vlog -work work -vopt -stats=none D:/RISC_CPU/XNOR.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Xnor
+-- Compiling module XnorTB
+
+Top level modules:
+	XnorTB
+
+} {} {}}
