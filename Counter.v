@@ -7,8 +7,7 @@ module SC(number,reset,clk,inc);
 			if (reset == 1)
 				number <= 3'b000;
 			else if(inc == 1)
-				number <= number+3'b001;
-			
+				number <= number+3'b001;	
 		end
 endmodule
 
@@ -17,6 +16,7 @@ module SCTB;
 	reg reset,clk,inc;
 
 	SC sample(number,reset,clk,inc);
+
 	initial 
 		begin 
 			clk=0;
