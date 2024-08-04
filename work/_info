@@ -18,6 +18,7 @@ Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
+R0
 T_opt1
 !s110 1722767755
 VLW`YYGmoY_zBM21k3FjWB2
@@ -615,25 +616,25 @@ R16
 R2
 n@reg8@bit@t@b
 vSC
-Z81 !s110 1722771110
+Z81 !s110 1722774839
 !i10b 1
-!s100 Co`c31C=hNoXoZYa_[2?H3
+!s100 `lMgz?feL=hBbARXREbB_1
 R5
-IEFB[4O5<4RLW]V<FiN5883
+Ib0zm5LZiGCEm2;m^ZDaZJ1
 R6
-Z82 w1722771101
+Z82 w1722771232
 Z83 8D:/RISC_CPU/Counter.v
 Z84 FD:/RISC_CPU/Counter.v
-!i122 164
+!i122 165
 L0 1 12
 R11
 R12
 r1
 !s85 0
 31
-Z85 !s108 1722771110.000000
-Z86 !s107 D:/RISC_CPU/Counter.v|
-Z87 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/Counter.v|
+Z85 !s108 1722774839.000000
+!s107 D:/RISC_CPU/Counter.v|
+Z86 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/Counter.v|
 !i113 0
 R16
 R2
@@ -648,7 +649,7 @@ R6
 R82
 R83
 R84
-!i122 164
+!i122 165
 L0 14 23
 R11
 R12
@@ -656,8 +657,8 @@ r1
 !s85 0
 31
 R85
+Z87 !s107 D:/RISC_CPU/Counter.v|
 R86
-R87
 !i113 0
 R16
 R2
