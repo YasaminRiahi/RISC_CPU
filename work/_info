@@ -10,15 +10,14 @@ z2
 cModel Technology
 Z0 dC:/modeltech64_2020.4/examples
 T_opt
-!s110 1722771438
-VI0Vi][5@P`[QIAcDE^h?<0
-04 12 4 work Decoder3_8TB fast 0
-=1-50ebf6d08ed0-66af67ee-255-4b4c
+!s110 1722777480
+V]QE6Y?z>i>G6EFR`Wc_@>3
+04 8 4 work TestXNOR fast 0
+=1-50ebf6d08ed0-66af7f88-20f-5900
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
-R0
 T_opt1
 !s110 1722775714
 Vi?S8T5fe=h9Uo4]DXF:8Q2
@@ -38,6 +37,7 @@ R1
 R2
 n@_opt2
 R3
+R0
 vAdd
 Z4 !s110 1722775698
 !i10b 1
@@ -782,6 +782,30 @@ r1
 R16
 R2
 n@test@ashl
+vTestXNOR
+!s110 1722777453
+!i10b 1
+!s100 @9@nTg:Rn0iCh3HPcJAih2
+R5
+I`W`Wc1PVoD1CH_lQZkWQ<1
+R6
+w1722777404
+8D:/RISC_CPU/TestXNOR.v
+FD:/RISC_CPU/TestXNOR.v
+!i122 185
+L0 1 50
+R11
+R12
+r1
+!s85 0
+31
+!s108 1722777453.000000
+!s107 D:/RISC_CPU/TestXNOR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/TestXNOR.v|
+!i113 0
+R16
+R2
+n@test@x@n@o@r
 vXnor
 R4
 !i10b 1
