@@ -28,16 +28,16 @@ R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1722771140
-V2jAJ2[inSi92[DYd_4EcU3
-04 4 4 work SCTB fast 0
-=1-50ebf6d08ed0-66af66c4-1a-371c
+!s110 1722776674
+V3iEV@EW_O0gWE8TTEK2G71
+04 8 4 work TestAshl fast 0
+=1-50ebf6d08ed0-66af7c62-1d6-542c
 R1
 R2
 n@_opt2
 R3
-R0
 vAdd
 Z4 !s110 1722775698
 !i10b 1
@@ -758,6 +758,30 @@ R43
 R16
 R2
 n@test@add
+vTestAshl
+!s110 1722776660
+!i10b 1
+!s100 49QEO;AXgL1D7^J4DH29L2
+R5
+IKiK3I9ZLeN0[AY:VJ2b`i2
+R6
+w1722776638
+8D:/RISC_CPU/TestASHL.v
+FD:/RISC_CPU/TestASHL.v
+!i122 184
+L0 1 51
+R11
+R12
+r1
+!s85 0
+31
+!s108 1722776660.000000
+!s107 D:/RISC_CPU/TestASHL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/RISC_CPU/TestASHL.v|
+!i113 0
+R16
+R2
+n@test@ashl
 vXnor
 R4
 !i10b 1
